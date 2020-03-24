@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+  <body>
+    <script>
+    let name = "Edidiong";
+    let courses = ["UX/UI", " Flutter", " Javascript, Html and Css"]
+
+    p = document.createElement("p");
+    p.innerHTML = "My name is "+name+ " and my registered courses are "+ courses ;
+    document.body.appendChild(p);
+
+
+
+        const print = () => {
+          let num;
+           //let i;
+           let write = document.getElementsByTagName('h1')[0];
+           for(let i = 0; i < 200; i++){
+             if(i % 2 != 0){
+              num = i
+       }
+       write.innerHTML += num + '<br/>';
+     }
+    }
+    ;
+
+
+    </script>
+    <button onClick = "print()" type="button" name="button">Show Odd Numbers</button>
+    <h1></h1>
+  </body>
+  </html>
